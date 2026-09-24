@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Ridgeview College — Event Management Portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead-top">
+    <img class="brand-mark" src="https://upload.wikimedia.org/wikipedia/en/3/3a/Lovely_Professional_University_logo.png" alt="Lovely Professional University" />
+    <div class="masthead-titles">
+      <h1>Lovely Professional University</h1>
+      <p>Campus event discovery, registrations, and admin control in one place.</p>
+    </div>
+    <div class="identity-bar">
+      <input type="text" id="userName" placeholder="Your name" />
+      <input type="email" id="userEmail" placeholder="Your email" />
+      <div class="role-toggle">
+        <button id="btnRoleStudent" class="active">Student</button>
+        <button id="btnRoleAdmin">Admin</button>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <nav class="tabs" id="tabNav"></nav>
+  </div>
+</header>
+
+<main class="wrap" id="mainContent"></main>
+
+<footer>Lovely Professional University · Event Management Portal — a 1st-year project demo. Data is stored only in this browser.</footer>
+
+<div id="modalRoot"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
